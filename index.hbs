@@ -17,7 +17,7 @@
           <div class="outline"></div>
           <div class="image circle-crop">{{#if target.photo}}<img src="{{base_url}}/img/{{target.last}}.jpg">{{/if}}</div>
         </div>
-        <div class="salutation light-shadow">Senator Feinstein,</div>
+        <div class="salutation light-shadow">{{#if target.title}}{{target.title}} {{/if}}{{#if target.last}}{{target.last}}{{/if}},</div>
       </div>
 
       <!-- Main Copy -->
