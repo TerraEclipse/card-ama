@@ -30,7 +30,7 @@
       "variables": {
         "card_class": "patient",
         "default_text_start": "Don't make it even harder for Medicare patients and their families in ",
-        "default_text_end": " <strong>Repeal the SGR now</strong> and avoid this disaster."
+        "default_text_end": ". <strong>Repeal the SGR now</strong> and avoid this disaster."
       }
     },
     "physician": {
