@@ -18,7 +18,7 @@
     "city": "Your Hometown",
     "state": "",
     "state_full": "Your Hometown",
-    "avatar": "./img/signer.jpg",
+    "avatar": null,
     "target": {
       "title": "Sen/Rep",
       "first": "First",
