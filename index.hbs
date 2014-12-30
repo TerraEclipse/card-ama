@@ -15,7 +15,7 @@
       <div class="greeting">
         <div class="photo target">
           <div class="outline"></div>
-          <div class="image circle-crop">{{#if target.photo}}<img src="img/{{target.last}}.jpg">{{/if}}</div>
+          <div class="image circle-crop">{{#if target.photo}}<img src="{{base_url}}/img/{{target.last}}.jpg">{{/if}}</div>
         </div>
         <div class="salutation light-shadow">Senator Feinstein,</div>
       </div>
@@ -29,11 +29,11 @@
       <div class="signature light-shadow">
         <div class="photo signer">
           <div class="outline"></div>
-          <div class="image circle-crop"><img src="img/signer.jpg"></div>
+          <div class="image circle-crop">{{#if avatar}}<img src="{{avatar}}">{{/if}}</div>
         </div>
         <div class="signer-info">
-          <div class="name">Margaret Hassleman</div>
-          <div class="location">Antelope Valley, CA</div>
+          <div class="name">{{first}}{{#if last}} {{last}}{{/if}}</div>
+          <div class="location">{{#if city}}{{city}}{{/if}}{{#if state}}, {{state}}{{/if}}</div>
         </div>
       </div>
 
