@@ -29,15 +29,15 @@
     "patient": {
       "variables": {
         "card_class": "patient",
-        "default_text_start": "Don't make it even harder for Medicare patients and their families in ",
-        "default_text_end": ". <strong>Repeal the SGR now</strong> and avoid this disaster."
+        "card_text_start": "Don't make it even harder for Medicare patients and their families in ",
+        "card_text_end": ". <strong>Repeal the SGR now</strong> and avoid this disaster."
       }
     },
     "physician": {
       "variables": {
         "card_class": "physician",
-        "default_text_start": "With a 21% payment cut, it's hard to find new ways to give ",
-        "default_text_end": " Medicare patients the care they deserve. <strong>Repeal the SGR now</strong> and put them first."
+        "card_text_start": "With a 21% payment cut, it's hard to find new ways to give ",
+        "card_text_end": " Medicare patients the care they deserve. <strong>Repeal the SGR now</strong> and put them first."
       }
     }
   }
