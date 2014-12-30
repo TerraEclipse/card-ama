@@ -1,0 +1,341 @@
+/*
+=========================================
+BASE DOM SETUP
+=========================================
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald','Helvetica Neue','Helvetica',sans-serif;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+/*
+=========================================
+HELPER CLASSES
+=========================================
+*/
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+     -moz-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.light-shadow {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.shadow {
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+.circle-crop {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  overflow: hidden;
+}
+.circle-crop img {
+  width: 100%;
+}
+
+/*
+=========================================
+BASE CARD STYLES
+=========================================
+*/
+
+.card {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background: url('../img/CA.jpg') no-repeat top left;
+}
+
+/*
+=========================================
+CARD BACKGROUND
+=========================================
+*/
+
+.card-bg,
+.color-layer,
+.dark-layer,
+.color {
+  position: absolute;
+}
+.card-bg,
+.color-layer {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.card-bg {
+  z-index: 0;
+}
+
+.color-layer {
+  opacity: 0.8;
+}
+.color {
+  width: 100%;
+  font-size: 0;
+}
+.top {
+  top: 0;
+  height: 50px;
+}
+.bottom {
+  bottom: 0;
+  height: 52px;
+}
+.patient .top {
+  background: url('../img/color-top-patient.png');
+}
+.patient .bottom {
+  background: url('../img/color-bottom-patient.png');
+}
+.physician .top {
+  background: url('../img/color-top-physician.png');
+}
+.physician .bottom {
+  background: url('../img/color-bottom-physician.png');
+}
+
+.dark-layer {
+  top: 70px;
+  width: 100%;
+  height: 190px;
+  background: url('../img/copy-bg.png');
+  opacity: 0.4;
+}
+
+/*
+=========================================
+GREETING
+=========================================
+*/
+
+.greeting {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.photo,
+.salutation {
+  display: inline-block;
+}
+
+.photo {
+  position: relative;
+}
+.target.photo {
+  width: 85px;
+  height: 82px;
+}
+
+.outline,
+.image {
+  position: absolute;
+}
+
+.outline {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.target .outline {
+  background: url('../img/target-outline.png') no-repeat top left;
+}
+
+.target .image {
+  top: 2px;
+  left: 2px;
+  width: 78px;
+  height: 78px;
+}
+.patient .image {
+  background: url('../img/default-avatar-patient.jpg');
+  background-size: cover;
+}
+.physician .image {
+  background: url('../img/default-avatar-physician.jpg');
+  background-size: cover;
+}
+
+.salutation {
+  position: relative;
+  top: -30px;
+  padding-left: 10px;
+  font-family: 'Pacifico',cursive;
+  font-size: 2.35em;
+}
+
+/*
+=========================================
+MAIN COPY
+=========================================
+*/
+
+.main-copy {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 125px;
+  text-align: center;
+  z-index: 1;
+}
+
+h1 {
+  width: 100%;
+  padding: 0 30px;
+  line-height: 1.25em;
+}
+
+.patient strong {
+  color: #ED8240;
+}
+.physician strong {
+  color: #63BCE8;
+}
+
+/*
+=========================================
+SIGNATURE
+=========================================
+*/
+
+.signature {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+.no-avatar .signature {
+  bottom: 44px;
+  font-size: 21px;
+}
+
+.signer.photo {
+  width: 107px;
+  height: 103px;
+}
+.no-avatar .signer.photo {
+  display: none;
+}
+
+.signer .outline {
+  background: url('../img/signer-outline.png');
+}
+
+.signer .image {
+  top: 5px;
+  left: 5px;
+  width: 98px;
+  height: 95px;
+}
+
+.signer-info {
+  position: relative;
+  top: -15px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.name {
+  font-family: 'Pacifico',cursive;
+  font-size: 2.25em;
+  line-height: 1em;
+}
+
+.location {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 1.15em;
+  text-transform: uppercase;
+}
+.patient .location {
+  color: #ED8240;
+}
+.physician .location {
+  color: #63BCE8;
+}
+
+/*
+=========================================
+FOOTER
+=========================================
+*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  z-index: 2;
+}
+.footer-content {
+  width: 100%;
+  height: 28px;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+  opacity: 0.8;
+}
+
+.ama-logo {
+  display: inline-block;
+  width: 71px;
+  height: 28px;
+  background: url('../img/ama-logo.png') no-repeat top left;
+}
+.link,
+.bullet {
+  position: relative;
+}
+.bullet {
+  top: -3px;
+  margin: 0 10px;
+  font-size: 2em;
+}
+.link {
+  top: -8px;
+}
+.footer strong {
+  font-weight: 400;
+  color: #fff;
+}

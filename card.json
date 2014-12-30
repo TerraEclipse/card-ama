@@ -1,0 +1,42 @@
+{
+  "title": "AMA Fix Medicare Now Card",
+  "description": "Card for AMA Fix Medicare Now campaign",
+  "typekit": false,
+  "sizes": {
+    "twitter": {
+      "width": 800,
+      "height": 400,
+      "default": true
+    }
+  },
+  "styles": [
+    "./css/styles.css"
+  ],
+  "variables": {
+    "first": "Your",
+    "last": "Name",
+    "city": "Your Hometown",
+    "state": "",
+    "state_full": "Your Hometown",
+    "avatar": null,
+    "target": {
+      "title": "Sen/Rep",
+      "first": "First",
+      "last": "Last"
+    }
+  },
+  "variants": {
+    "patient": {
+      "variables": {
+        "card_class": "patient",
+        "default_text": "Don't make it even harder for Medicare patients and their families in <strong>{{city}}</strong> <strong>Repeal the SGR now</strong> and avoid this disaster."
+      }
+    },
+    "physician": {
+      "variables": {
+        "card_class": "physician",
+        "default_text": "With a 21% payment cut, it's hard to find new ways to give <strong>{{city}}</strong> Medicare patients the care they deserve. <strong>Repeal the SGR now</strong> and put them first."
+      }
+    }
+  }
+}
