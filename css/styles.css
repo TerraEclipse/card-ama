@@ -216,6 +216,7 @@ MAIN COPY
 
 h1 {
   width: 100%;
+  font-weight: 700;
   padding: 0 30px;
   line-height: 1.25em;
 }
