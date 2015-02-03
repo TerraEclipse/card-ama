@@ -16,9 +16,9 @@
       <div class="greeting">
         <div class="photo target">
           <div class="outline"></div>
-          <div class="image circle-crop">{{#if _target.photo}}<img src="{{base_url}}/img/{{_target.last}}.jpg">{{/if}}</div>
+          <div class="image circle-crop">{{#if target.photo}}<img src="{{base_url}}/img/{{target.last}}.jpg">{{/if}}</div>
         </div>
-        <div class="salutation light-shadow">{{#if _target.title}}{{_target.title}} {{else}} Sen/Rep{{/if}}{{#if _target.last}}{{_target.last}}{{/if}},</div>
+        <div class="salutation light-shadow">{{#if target.title}}{{target.title}} {{else}} Sen/Rep{{/if}}{{#if target.last}}{{target.last}}{{/if}},</div>
       </div>
 
       <!-- Main Copy -->
