@@ -50,14 +50,14 @@
     "physician_thank_you_a": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "Thank you for fighting to mix the broken medicare payment system. Repealing the SGR will allow me to invest in my practice and better serve the Medicare patients in ",
+        "card_text_start": "Thank you for fighting to fix the Medicare payment system. SGR repeal will allow me to invest in my practice and better serve the Medicare patients in ",
         "card_text_end": " ."
       }
     },
     "physician_thank_you_b": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "Please continue the work you undertook last Congress to fix the flawed Medicare payment system by passing legislation that would permanently repeal SGR and allow me to provide the best care possible to Medicare patients in ",
+        "card_text_start": "Please continue working to fix the flawed Medicare payment system by permanently repealing the SGR, allowing me to provide the best care possible to Medicare patients in ",
         "card_text_end": " ."
       }
     },
