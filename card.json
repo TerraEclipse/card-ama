@@ -47,6 +47,20 @@
         "card_text_end": " are discouraged from investing in improved care. <strong>Repealing the SGR</strong> will lead to reform and innovation."
       }
     },
+    "physician_thank_you_a": {
+      "variables": {
+        "card_class": "physician",
+        "card_text_start": "Thank you for fighting to mix the broken medicare payment system. Repealing the SGR will allow me to invest in my practice and better serve the Medicare patients in ",
+        "card_text_end": " ."
+      }
+    },
+    "physician_thank_you_b": {
+      "variables": {
+        "card_class": "physician",
+        "card_text_start": "Please continue the work you undertook last Congress to fix the flawed Medicare payment system by passing legislation that would permanently repeal SGR and allow me to provide the best care possible to Medicare patients in ",
+        "card_text_end": " ."
+      }
+    },
     "patient_care_availability": {
       "variables": {
         "card_class": "patient",
@@ -66,6 +80,20 @@
         "card_class": "patient",
         "card_text_start": "The SGR puts Medicare patients in ",
         "card_text_end": " at risk. I'm uring you to put them first and <strong>repeal it</strong> once and for all."
+      }
+    },
+    "patient_thank_you_a": {
+      "variables": {
+        "card_class": "patient",
+        "card_text_start": "Thank you for recognizing that SGR is broken and needs to be replaced with real Medicare payment reform. Please continue to work in a bi-partisan manner to repeal it and bring relief to the Medicare recipients in ",
+        "card_text_end": " ."
+      }
+    },
+    "patient_thank_you_b": {
+      "variables": {
+        "card_class": "patient",
+        "card_text_start": "Please finish the work Congress started to repeal the SGR once and for all. Last year, Congress came close to passing this much needed reform and we in ",
+        "card_text_end": " are counting on your continued support to see it through 2015."
       }
     }
   }
