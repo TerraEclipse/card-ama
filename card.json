@@ -57,7 +57,7 @@
     "physician_thank_you_b": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "Please continue working to fix the flawed Medicare payment system by permanently repealing the SGR, allowing me to provide the best care possible to Medicare patients in ",
+        "card_text_start": "Please continue working to fix the flawed Medicare payment system by repealing the SGR, allowing me to provide the best care possible to patients in ",
         "card_text_end": " ."
       }
     },
@@ -85,15 +85,15 @@
     "patient_thank_you_a": {
       "variables": {
         "card_class": "patient",
-        "card_text_start": "Thank you for recognizing that SGR is broken and needs to be replaced with real Medicare payment reform. Please continue to work in a bi-partisan manner to repeal it and bring relief to the Medicare recipients in ",
+        "card_text_start": "Thank you for recognizing that the SGR needs to be replaced with real Medicare payment reform. Please continue working to repeal it and bring relief to the Medicare recipients in ",
         "card_text_end": " ."
       }
     },
     "patient_thank_you_b": {
       "variables": {
         "card_class": "patient",
-        "card_text_start": "Please finish the work Congress started to repeal the SGR once and for all. Last year, Congress came close to passing this much needed reform and we in ",
-        "card_text_end": " are counting on your continued support to see it through 2015."
+        "card_text_start": "Please finish the work you started to repeal the SGR once and for all. Congress has come close to passing this much needed reform and we in ",
+        "card_text_end": " are counting on you to see it through 2015."
       }
     }
   }
