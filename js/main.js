@@ -26,7 +26,6 @@ $(function() {
     var loopNumber = variantArray.length + 1;
 
     $(selector).addClass('loop-' + loopNumber);
-    // document.getElementsByTagName('h1')[0].innerText = variantArray.length;
   }
 
   $(document).ready(function() {
