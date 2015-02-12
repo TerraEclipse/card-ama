@@ -364,19 +364,24 @@ body.loop-3 .salutation {
 }
 body.loop-1 .greeting,
 body.loop-3 .greeting {
-  top: 65px;
+  top: 69px;
 }
 body.loop-1 .main-copy,
 body.loop-3 .main-copy {
   top: 115px;
 }
+body.loop-1 .photo.target.large,
 body.loop-1 .photo.target.large .outline {
   width: 300px;
   height: 300px;
+}
+body.loop-1 .photo.target.large .outline {
   background: url('../img/circle-outline.png');
   background-size: cover;
 }
-body.loop-1 .photo-target.large .image {
+body.loop-1 .photo-target.large .target .image {
+  top: 10px;
+  left: 10px;
   width: 290px;
   height: 290px;
 }
