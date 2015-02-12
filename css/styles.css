@@ -347,7 +347,7 @@ ALTERNATE LAYOUTS
 =========================================
 */
 
-body.loop-1 h1
+body.loop-1 h1,
 body.loop-1 .greeting {
   padding-left: 30%;
 }
@@ -383,7 +383,7 @@ body.loop-1 .photo-target.large .image {
   height: 290px;
 }
 
-body.loop-3 h1
+body.loop-3 h1,
 body.loop-3 .greeting {
   padding-left: 30%;
 }
