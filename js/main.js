@@ -37,7 +37,7 @@ $(function() {
     // if (variables.variants_shared) {
     //   setLoopNumber(variables.variants_shared, 'body');
     // }
-    document.getElementsByTagName('h1')[0].innerText = variables.first;
+    document.getElementsByTagName('h1')[0].innerText = variables.targets_shared;
   });
 
 });
