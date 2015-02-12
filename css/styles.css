@@ -341,3 +341,49 @@ FOOTER
   color: #fff;
 }
 
+/*
+=========================================
+ALTERNATE LAYOUTS
+=========================================
+*/
+
+body.loop-1 h1
+body.loop-1 .greeting {
+  padding-left: 30%;
+}
+body.loop-1 .photo.target.small,
+body.loop-3 .photo.target.small {
+  display: none;
+}
+body.loop-1 .salutation,
+body.loop-3 .salutation {
+  top: auto;
+  padding-left: 0;
+  font-size: 2.75em;
+}
+body.loop-1 .greeting,
+body.loop-3 .greeting {
+  top: 65px;
+}
+body.loop-1 .greeting {
+  text-align: left;
+}
+body.loop-1 .main-copy,
+body.loop-3 .main-copy {
+  top: 115px;
+}
+body.loop-1 .photo.target.large .outline {
+  width: 300px;
+  height: 300px;
+  background: url('../img/circle-outline.png');
+  background-size: cover;
+}
+body.loop-1 .photo-target.large .image {
+  width: 290px;
+  height: 290px;
+}
+
+body.loop-3 h1
+body.loop-3 .greeting {
+  padding-left: 30%;
+}

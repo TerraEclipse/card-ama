@@ -13,7 +13,7 @@
 
       <!-- Greeting -->
       <div class="greeting">
-        <div class="photo target">
+        <div class="photo target small">
           <div class="outline"></div>
           <div class="image circle-crop"><img src="{{#if target.photo}}{{target.photo}}{{else}}{{base_url}}/img/default-avatar-{{card_class}}.jpg{{/if}}"></div>
         </div>
@@ -22,6 +22,10 @@
 
       <!-- Main Copy -->
       <div class="main-copy">
+        <div class="photo target large">
+          <div class="outline"></div>
+          <div class="image circle-crop"><img src="{{#if target.photo}}{{target.photo}}{{else}}{{base_url}}/img/default-avatar-{{card_class}}.jpg{{/if}}"></div>
+        </div>
         <h1 class="centered shadow">
           {{#if card_text_start}}
             {{{card_text_start}}}<strong>{{city}}</strong>{{{card_text_end}}}
