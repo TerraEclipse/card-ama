@@ -33,7 +33,7 @@ $(function() {
 
     setFontSize(text, 'h1');
 
-    if (variables.variants_shared.length) {
+    if (variables.variants_shared) {
       setLoopNumber(variables.variants_shared, 'body');
     }
     console.log(variables);
