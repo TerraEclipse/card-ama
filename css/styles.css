@@ -411,15 +411,16 @@ body.loop-1 .signature {
 body.loop-3 h1,
 body.loop-3 .greeting {
   text-align: left;
-  padding-left: 20px;
 }
 body.loop-3 h1 {
   padding-right: 31%;
+  padding-left: 25px;
 }
 body.loop-3 .greeting {
   padding-right: 29%;
+  padding-left: 30px;
 }
-body.loop-1 .photo.target.large {
+body.loop-3 .photo.target.large {
   right: -40px;
 }
 body.loop-3 .signature {
