@@ -349,6 +349,7 @@ ALTERNATE LAYOUTS
 
 body.loop-1 h1,
 body.loop-1 .greeting {
+  text-align: left;
   padding-left: 30%;
 }
 body.loop-1 .photo.target.small,
@@ -364,9 +365,6 @@ body.loop-3 .salutation {
 body.loop-1 .greeting,
 body.loop-3 .greeting {
   top: 65px;
-}
-body.loop-1 .greeting {
-  text-align: left;
 }
 body.loop-1 .main-copy,
 body.loop-3 .main-copy {
