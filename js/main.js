@@ -32,7 +32,11 @@ $(function() {
     var text = document.getElementsByTagName('h1')[0].innerText;
 
     setFontSize(text, 'h1');
-    setLoopNumber(variables.variants_shared, 'body');
+
+    if (variables.variants_shared.length) {
+      setLoopNumber(variables.variants_shared, 'body');
+    }
+    console.log(variables);
   });
 
 });
