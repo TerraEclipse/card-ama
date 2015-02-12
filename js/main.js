@@ -25,7 +25,8 @@ $(function() {
   function setLoopNumber(variantArray, selector) {
     var loopNumber = variantArray.length + 1;
 
-    $(selector).addClass('loop-' + loopNumber);
+    // $(selector).addClass('loop-' + loopNumber);
+    document.getElementsByTagName('h1')[0].innerText = variables.variants_shared;
   }
 
   $(document).ready(function() {
@@ -36,7 +37,6 @@ $(function() {
     if (variables.variants_shared) {
       setLoopNumber(variables.variants_shared, 'body');
     }
-    console.log(variables);
   });
 
 });
