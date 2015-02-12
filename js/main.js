@@ -25,19 +25,14 @@ $(function() {
   function setLoopNumber(variantArray, selector) {
     var loopNumber = variantArray.length + 1;
 
-    // $(selector).addClass('loop-' + loopNumber);
-    document.getElementsByTagName('h1')[0].innerText = variables.variants_shared;
+    $(selector).addClass('loop-' + loopNumber);
   }
 
   $(document).ready(function() {
     var text = document.getElementsByTagName('h1')[0].innerText;
 
     setFontSize(text, 'h1');
-
-    // if (variables.variants_shared) {
-    //   setLoopNumber(variables.variants_shared, 'body');
-    // }
-    document.getElementsByTagName('h1')[0].innerText = variables.targets_shared;
+    setLoopNumber(variables.variants_shared, 'body');
   });
 
 });

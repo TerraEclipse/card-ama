@@ -27,7 +27,9 @@
       "title": "Sen/Rep",
       "first": "First",
       "last": "Last"
-    }
+    },
+    "variants_shared": [],
+    "targets_shared": []
   },
   "variants": {
     "physician_payment_cuts": {
