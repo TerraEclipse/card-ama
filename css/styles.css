@@ -376,21 +376,28 @@ body.loop-1 .main-copy,
 body.loop-3 .main-copy {
   top: 115px;
 }
-body.loop-1 .photo.target.large {
+body.loop-1 .photo.target.large,
+body.loop-3 .photo.target.large {
   position: absolute;
-  left: -40px;
   top: -80px;
 }
+body.loop-1 .photo.target.large {
+  left: -40px;
+}
 body.loop-1 .photo.target.large,
-body.loop-1 .photo.target.large .outline {
+body.loop-1 .photo.target.large .outline,
+body.loop-3 .photo.target.large,
+body.loop-3 .photo.target.large .outline {
   width: 260px;
   height: 260px;
 }
-body.loop-1 .photo.target.large .outline {
+body.loop-1 .photo.target.large .outline,
+body.loop-3 .photo.target.larget .outline {
   background: url('../img/circle-outline.png');
   background-size: cover;
 }
-body.loop-1 .photo.target.large .image {
+body.loop-1 .photo.target.large .image,
+body.loop-3 .photo.target.large .image {
   top: 10px;
   left: 10px;
   width: 240px;
@@ -401,7 +408,16 @@ body.loop-1 .signature {
   padding-right: 30px;
 }
 
-body.loop-3 h1,
+body.loop-3 h1 {
+  padding-right: 31%;
+}
 body.loop-3 .greeting {
-  padding-left: 30%;
+  padding-right: 29%;
+}
+body.loop-1 .photo.target.large {
+  right: -40px;
+}
+body.loop-3 .signature {
+  text-align: left;
+  padding-left: 30px;
 }
