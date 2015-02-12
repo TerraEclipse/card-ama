@@ -350,8 +350,13 @@ ALTERNATE LAYOUTS
 body.loop-1 h1,
 body.loop-1 .greeting {
   text-align: left;
-  padding-left: 31%;
   padding-right: 20px;
+}
+body.loop-1 h1 {
+  padding-left: 31%;
+}
+body.loop-1 .greeting {
+  padding-left: 29%;
 }
 body.loop-1 .photo.target.small,
 body.loop-3 .photo.target.small {
@@ -361,7 +366,7 @@ body.loop-1 .salutation,
 body.loop-3 .salutation {
   top: auto;
   padding-left: 0;
-  font-size: 2.75em;
+  font-size: 2.5em;
 }
 body.loop-1 .greeting,
 body.loop-3 .greeting {
