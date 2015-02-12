@@ -379,7 +379,7 @@ body.loop-1 .photo.target.large .outline {
   background: url('../img/circle-outline.png');
   background-size: cover;
 }
-body.loop-1 .photo .target.large .image {
+body.loop-1 .photo.target.large .image {
   top: 10px;
   left: 10px;
   width: 290px;
