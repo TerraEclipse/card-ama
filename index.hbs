@@ -24,7 +24,7 @@
       <div class="main-copy">
         <div class="photo target large">
           <div class="outline"></div>
-          <div class="image circle-crop"><img src="{{#if target.photo}}{{target.photo}}{{else}}{{base_url}}/img/default-avatar-{{card_class}}.jpg{{/if}}"></div>
+          <div class="image circle-crop"><img src="{{#if target.photo}}{{target.photo}}{{else}}{{base_url}}/img/default-avatar-{{#if card_class}}{{card_class}}{{else}}patient{{/if}}.jpg{{/if}}"></div>
         </div>
         <h1 class="centered shadow">
           {{#if card_text_start}}
