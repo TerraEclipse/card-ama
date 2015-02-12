@@ -22,10 +22,17 @@ $(function() {
     $(selector).css({ 'font-size': size + 'px' });
   }
 
+  function setLoopNumber(variantArray, selector) {
+    var loopNumber = variantArray.length + 1;
+
+    $(selector).addClass('loop-' + loopNumber);
+  }
+
   $(document).ready(function() {
     var text = document.getElementsByTagName('h1')[0].innerText;
 
     setFontSize(text, 'h1');
+    setLoopNumber(variables.variants_shared, 'body');
   });
 
 });

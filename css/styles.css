@@ -340,3 +340,20 @@ FOOTER
   font-weight: 400;
   color: #fff;
 }
+
+/*
+=========================================
+LOOP NUMBER TEST (TEMP)
+=========================================
+*/
+
+body.loop-1 h1 {
+  color: blue;
+}
+body.loop-2 h1 {
+  color: pink;
+}
+body.loop-3 h1 {
+  color: yellow;
+}
+
