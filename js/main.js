@@ -34,9 +34,10 @@ $(function() {
 
     setFontSize(text, 'h1');
 
-    if (variables.variants_shared) {
-      setLoopNumber(variables.variants_shared, 'body');
-    }
+    // if (variables.variants_shared) {
+    //   setLoopNumber(variables.variants_shared, 'body');
+    // }
+    document.getElementsByTagName('h1')[0].innerText = variables.variants_shared;
   });
 
 });
