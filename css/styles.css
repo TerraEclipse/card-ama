@@ -350,6 +350,10 @@ ALTERNATE LAYOUTS
 .photo.target.large {
   display: none;
 }
+body.loop-1 .photo.target.large,
+body.loop-3 .photo.target.large {
+  display: block;
+}
 
 body.loop-1 h1,
 body.loop-1 .greeting {
