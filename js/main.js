@@ -38,8 +38,13 @@ $(function() {
     // else {
     //   finalSize = rawSize;
     // }
-    finalSize = rawSize * manualAdjustments[variables.variant];
-    console.log(rawSize, finalSize);
+    if (variables.variant) {
+      finalSize = rawSize * manualAdjustments[variables.variant];
+      console.log(rawSize, finalSize);
+    }
+    else {
+      finalSize = rawSize;
+    }
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
   }
