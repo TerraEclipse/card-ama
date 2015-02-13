@@ -370,7 +370,7 @@ body.loop-1 .greeting {
   padding-left: 29%;
 }
 body.loop-1 .photo.target.small,
-body.loop-3 .photo.target.small
+body.loop-3 .photo.target.small,
 body.loop-1 .salutation.normal,
 body.loop-3 .salutation.normal {
   display: none;
@@ -391,12 +391,12 @@ body.loop-3 .greeting {
 }
 body.loop-1 .main-copy,
 body.loop-3 .main-copy {
-  top: 115px;
+  /*top: 115px;*/
 }
 body.loop-1 .photo.target.large,
 body.loop-3 .photo.target.large {
   position: absolute;
-  top: -80px;
+  top: -60px;
 }
 body.loop-1 .photo.target.large {
   left: -40px;
