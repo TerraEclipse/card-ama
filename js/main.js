@@ -8,7 +8,7 @@ $(function() {
       , rawSize = 0
       , finalSize = 0
       , manualAdjustments = {
-          'physician_payment_cuts': 1,
+          'physician_payment_cuts': 0.5,
           'physician_high_numbers': 1,
           'physician_investing': 1,
           'physician_thank_you_a': 1,
@@ -32,15 +32,8 @@ $(function() {
     chars = letters+(spaces/2);
     rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
-    // if (variables.variant == 'patient_risk' || variables.variant == 'patient_care_access') {
-    //   finalSize = Math.floor(rawSize * 0.8);
-    // }
-    // else {
-    //   finalSize = rawSize;
-    // }
     if (variables.variant) {
-      finalSize = rawSize * manualAdjustments[variables.variant];
-      console.log(rawSize, finalSize);
+      finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]);
     }
     else {
       finalSize = rawSize;
