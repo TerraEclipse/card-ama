@@ -347,11 +347,14 @@ ALTERNATE LAYOUTS
 =========================================
 */
 
-.photo.target.large {
+.photo.target.large
+.salutation.alternate {
   display: none;
 }
 body.loop-1 .photo.target.large,
-body.loop-3 .photo.target.large {
+body.loop-3 .photo.target.large,
+body.loop-1 .salutation.alternate,
+body.loop-3 .salutation.alternate {
   display: block;
 }
 
