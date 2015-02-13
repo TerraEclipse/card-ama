@@ -46,8 +46,7 @@ $(function() {
     var text = document.getElementsByTagName('h1')[0].innerText
       , loopNumber = variantArray.length + 1;
 
-    // $(selector).addClass('loop-' + loopNumber);
-    $(selector).addClass('loop-2');
+    $(selector).addClass('loop-' + loopNumber);
     setFontSize(text, '.card-text', loopNumber);
   }
 
