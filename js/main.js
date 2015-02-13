@@ -21,7 +21,7 @@ $(function() {
     rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
     if (loopNumber == 1 || loopNumber == 3) {
-      finalSize = Math.floor(rawSize * 0.80);
+      finalSize = Math.floor(rawSize * 0.75);
     }
     else {
       finalSize = rawSize;
