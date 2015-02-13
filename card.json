@@ -28,7 +28,7 @@
       "first": "First",
       "last": "Last"
     },
-    "variant": "physician_payment_cuts",
+    "variant": null,
     "variants_shared": [],
     "targets_shared": []
   },
