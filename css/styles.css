@@ -219,6 +219,9 @@ h1 {
   padding: 0 30px;
   line-height: 1.25em;
 }
+.card-text {
+  line-height: 1.2em;
+}
 
 .patient strong {
   color: #ED8240;
