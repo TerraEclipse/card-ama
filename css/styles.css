@@ -439,7 +439,7 @@ body.loop-3 .greeting {
   text-align: left;
 }
 body.loop-3 .greeting {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 body.loop-3 h1 {
   padding-right: 30%;
@@ -456,7 +456,7 @@ body.loop-3 .signature {
   padding-left: 30px;
 }
 body.loop-3 .name {
-  font-size: 2.1em;
+  font-size: 1.9em;
 }
 body.loop-3 .signer-info {
   text-align: left;
