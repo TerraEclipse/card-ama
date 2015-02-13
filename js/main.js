@@ -39,6 +39,7 @@ $(function() {
     //   finalSize = rawSize;
     // }
     finalSize = rawSize * manualAdjustments[variables.variant];
+    console.log(rawSize, finalSize);
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
   }

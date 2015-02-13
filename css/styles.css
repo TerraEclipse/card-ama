@@ -71,6 +71,7 @@ BASE CARD STYLES
   position: relative;
   width: 800px;
   height: 400px;
+  overflow: hidden;
 }
 
 /*
