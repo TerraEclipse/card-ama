@@ -28,7 +28,7 @@
       "first": "First",
       "last": "Last"
     },
-    "variant": "patient_care_availability",
+    "variant": "patient_care_access",
     "variants_shared": [],
     "targets_shared": []
   },
