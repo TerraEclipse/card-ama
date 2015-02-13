@@ -380,7 +380,10 @@ body.loop-3 .salutation {
   top: auto;
   padding-left: 0;
   font-size: 2.5rem;
+  font-weight: normal;
   text-transform: none;
+  margin-left: -10px;
+  margin-bottom: 15px;
 }
 body.loop-1 .greeting,
 body.loop-3 .greeting {
