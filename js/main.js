@@ -13,7 +13,7 @@ $(function() {
           'physician_investing': 1.3,
           'physician_thank_you_a': 1.15,
           'physician_thank_you_b': 1.15,
-          'patient_care_availability': 1,
+          'patient_care_availability': 1.1,
           'patient_care_access': 1,
           'patient_risk': 1,
           'patient_thank_you_a': 1,
