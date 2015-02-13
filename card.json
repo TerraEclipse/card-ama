@@ -19,7 +19,7 @@
   "variables": {
     "first": "Your",
     "last": "Name",
-    "city": "Your Hometown",
+    "city": "Your Very Long Hometown",
     "state": "",
     "state_full": "Your Hometown",
     "avatar": null,
