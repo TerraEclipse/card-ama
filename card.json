@@ -28,6 +28,7 @@
       "first": "First",
       "last": "Last"
     },
+    "variant": null,
     "variants_shared": [],
     "targets_shared": []
   },
