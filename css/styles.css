@@ -382,8 +382,7 @@ body.loop-1 .photo.target.small,
 body.loop-1 .salutation.normal {
   display: none;
 }
-body.loop-1 .salutation,
-body.loop-3 .salutation {
+body.loop-1 .salutation {
   top: auto;
   padding-left: 0;
   font-size: 2.5rem;
@@ -392,8 +391,7 @@ body.loop-3 .salutation {
   margin-left: -10px;
   margin-bottom: 20px;
 }
-body.loop-1 .greeting,
-body.loop-3 .greeting {
+body.loop-1 .greeting {
   top: 72px;
 }
 body.loop-1 .main-copy,
