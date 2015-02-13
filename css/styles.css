@@ -420,6 +420,10 @@ body.loop-3 .photo.target.large .image {
   width: 240px;
   height: 240px;
 }
+body.loop-1 .signature,
+body.loop-3 .signature {
+  bottom: 52px;
+}
 body.loop-1 .signature {
   text-align: right;
   padding-right: 30px;
@@ -440,9 +444,7 @@ body.loop-3 .greeting {
 body.loop-3 .photo.target.large {
   right: -40px;
 }
-body.loop-1 .signature,
 body.loop-3 .signature {
-  bottom: 52px;
   text-align: left;
   padding-left: 30px;
 }
