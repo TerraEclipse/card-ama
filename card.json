@@ -28,7 +28,7 @@
       "first": "First",
       "last": "Last"
     },
-    "variant": "physician_thank_you_b",
+    "variant": "patient_care_availability",
     "variants_shared": [],
     "targets_shared": []
   },
