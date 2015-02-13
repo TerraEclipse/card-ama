@@ -434,7 +434,8 @@ body.loop-1 .signature {
   padding-right: 30px;
 }
 
-body.loop-3 h1{
+body.loop-3 h1
+body.loop-3 .signature {
   text-align: left;
 }
 body.loop-3 h1 {
