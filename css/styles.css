@@ -26,7 +26,6 @@ h5,
 h6 {
   margin: 0;
   line-height: 1em;
-  font-weight: normal;
   /*text-transform: uppercase;*/
 }
 
@@ -217,7 +216,7 @@ MAIN COPY
 
 h1 {
   width: 100%;
-  font-weight: 700;
+  font-weight: normal;
   padding: 0 30px;
   line-height: 1.25em;
 }
