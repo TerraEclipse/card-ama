@@ -383,7 +383,7 @@ body.loop-3 .salutation {
   font-weight: normal;
   text-transform: none;
   margin-left: -10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 body.loop-1 .greeting,
 body.loop-3 .greeting {
@@ -440,6 +440,7 @@ body.loop-3 .greeting {
 body.loop-3 .photo.target.large {
   right: -40px;
 }
+body.loop-1 .signature,
 body.loop-3 .signature {
   bottom: 52px;
   text-align: left;
