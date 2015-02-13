@@ -17,7 +17,7 @@ $(function() {
           'patient_care_access': 0.9,
           'patient_risk': 0.9,
           'patient_thank_you_a': 1.25,
-          'patient_thank_you_b': 1
+          'patient_thank_you_b': 1.3
         };
 
     $.each(charArray, function(index,character) {
