@@ -16,7 +16,7 @@ $(function() {
           'patient_care_availability': 1.15,
           'patient_care_access': 0.9,
           'patient_risk': 0.9,
-          'patient_thank_you_a': 1.15,
+          'patient_thank_you_a': 1.2,
           'patient_thank_you_b': 1
         };
 
