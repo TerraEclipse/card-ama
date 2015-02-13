@@ -14,7 +14,7 @@ $(function() {
           'physician_thank_you_a': 1.15,
           'physician_thank_you_b': 1.15,
           'patient_care_availability': 1.15,
-          'patient_care_access': 1,
+          'patient_care_access': 0.9,
           'patient_risk': 1,
           'patient_thank_you_a': 1,
           'patient_thank_you_b': 1
