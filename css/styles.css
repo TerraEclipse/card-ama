@@ -434,13 +434,15 @@ body.loop-1 .signature {
   padding-right: 30px;
 }
 
-body.loop-3 h1,
-body.loop-3 .greeting {
+body.loop-3 h1{
   text-align: left;
 }
 body.loop-3 h1 {
   padding-right: 30%;
   padding-left: 30px;
+}
+body.loop-3 .main-copy {
+  top: 120px;
 }
 body.loop-3 .photo.target.large {
   right: -40px;
