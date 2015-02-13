@@ -5,7 +5,8 @@ $(function() {
       , letters = 0
       , spaces = 0
       , chars = 0
-      , size = 0;
+      , rawSize = 0
+      , finalSize = 0;
 
     $.each(charArray, function(index,character) {
       if (character == ' ') {
@@ -17,13 +18,16 @@ $(function() {
     });
 
     chars = letters+(spaces/2);
-    size = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
+    rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
     if (loopNumber == 1 || loopNumber == 3) {
-      $(selector).css({ color: 'red' });
+      finalSize = Math.floor(rawSize * 0.69);
+    }
+    else {
+      finalSize = rawSize;
     }
 
-    $(selector).css({ 'font-size': size + 'px' });
+    $(selector).css({ 'font-size': finalSize + 'px' });
   }
 
   function setLoopNumber(variantArray, selector) {
