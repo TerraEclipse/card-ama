@@ -20,12 +20,12 @@ $(function() {
     chars = letters+(spaces/2);
     rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
-    if (variables.variant == 'patient_risk' || variables.variant == 'patient_care_access') {
-      finalSize = Math.floor(rawSize * 0.8);
-    }
-    else {
-      finalSize = rawSize;
-    }
+    // if (variables.variant == 'patient_risk' || variables.variant == 'patient_care_access') {
+    //   finalSize = Math.floor(rawSize * 0.8);
+    // }
+    // else {
+    //   finalSize = rawSize;
+    // }
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
   }
