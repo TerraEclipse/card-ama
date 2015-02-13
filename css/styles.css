@@ -350,7 +350,7 @@ ALTERNATE LAYOUTS
 =========================================
 */
 
-.photo.target.large
+.photo.target.large,
 .salutation.alternate {
   display: none;
 }
