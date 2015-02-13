@@ -347,6 +347,10 @@ ALTERNATE LAYOUTS
 =========================================
 */
 
+.photo.target.large {
+  display: none;
+}
+
 body.loop-1 h1,
 body.loop-1 .greeting {
   text-align: left;
