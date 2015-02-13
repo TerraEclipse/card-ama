@@ -28,7 +28,7 @@
       "first": "First",
       "last": "Last"
     },
-    "variant": null,
+    "variant": "patient_risk",
     "variants_shared": [],
     "targets_shared": []
   },
