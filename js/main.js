@@ -47,7 +47,6 @@ $(function() {
       , loopNumber = variantArray.length + 1;
 
     $(selector).addClass('loop-' + loopNumber);
-
     setFontSize(text, '.card-text', loopNumber);
   }
 

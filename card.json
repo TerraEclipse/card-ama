@@ -19,7 +19,7 @@
   "variables": {
     "first": "Your",
     "last": "Name",
-    "city": "Your Very Long Hometown",
+    "city": "Aptos",
     "state": "",
     "state_full": "Your Hometown",
     "avatar": null,
@@ -28,7 +28,7 @@
       "first": "First",
       "last": "Last"
     },
-    "variant": "patient_thank_you_b",
+    "variant": "patient_thank_you_a",
     "variants_shared": [],
     "targets_shared": []
   },
