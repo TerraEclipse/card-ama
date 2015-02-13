@@ -36,7 +36,7 @@ $(function() {
 
     $(selector).addClass('loop-' + loopNumber);
 
-    setFontSize(text, 'h1', loopNumber);
+    setFontSize(text, '.card-text', loopNumber);
   }
 
   $(document).ready(function() {
