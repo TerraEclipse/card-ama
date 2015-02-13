@@ -6,7 +6,19 @@ $(function() {
       , spaces = 0
       , chars = 0
       , rawSize = 0
-      , finalSize = 0;
+      , finalSize = 0
+      , manualAdjustments = {
+          'physician_payment_cuts': 1,
+          'physician_high_numbers': 1,
+          'physician_investing': 1,
+          'physician_thank_you_a': 1,
+          'physician_thank_you_b': 1,
+          'patient_care_availability': 1,
+          'patient_care_access': 1,
+          'patient_risk': 1,
+          'patient_thank_you_a': 1,
+          'patient_thank_you_b': 1
+        };
 
     $.each(charArray, function(index,character) {
       if (character == ' ') {
@@ -26,6 +38,7 @@ $(function() {
     // else {
     //   finalSize = rawSize;
     // }
+    finalSize = rawSize * manualAdjustments[variables.variant];
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
   }
