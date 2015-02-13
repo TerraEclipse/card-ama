@@ -28,7 +28,6 @@ $(function() {
     }
 
     $(selector).css({ 'font-size': finalSize + 'px' });
-    $(selector).text(variables.variant);
   }
 
   function setLoopNumber(variantArray, selector) {
