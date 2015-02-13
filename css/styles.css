@@ -438,6 +438,9 @@ body.loop-3 h1,
 body.loop-3 .greeting {
   text-align: left;
 }
+body.loop-3 .greeting {
+  padding-left: 30px;
+}
 body.loop-3 h1 {
   padding-right: 30%;
   padding-left: 30px;
@@ -451,6 +454,9 @@ body.loop-3 .photo.target.large {
 body.loop-3 .signature {
   text-align: left;
   padding-left: 30px;
+}
+body.loop-3 .name {
+  font-size: 2.1em;
 }
 body.loop-3 .signer-info {
   text-align: left;
