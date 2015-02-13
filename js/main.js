@@ -8,7 +8,7 @@ $(function() {
       , rawSize = 0
       , finalSize = 0
       , manualAdjustments = {
-          'physician_payment_cuts': 0.5,
+          'physician_payment_cuts': 1.3,
           'physician_high_numbers': 1,
           'physician_investing': 1,
           'physician_thank_you_a': 1,
