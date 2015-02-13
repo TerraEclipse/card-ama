@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div class="{{#if card_class}} {{card_class}}{{else}}patient{{/if}}{{#if avatar}} avatar{{else}} no-avatar{{/if}} card">
+    <div class="{{#if card_class}} {{card_class}}{{else}}patient{{/if}}{{#if avatar}} avatar{{else}} no-avatar{{/if}} card" style="background-image: url('{{base_url}}/img/states/{{#if state}}{{state}}{{else}}CA{{/if}}.jpg');">
 
       <!-- Greeting -->
       <div class="greeting">
