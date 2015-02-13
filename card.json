@@ -36,21 +36,21 @@
     "physician_payment_cuts": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "payment cuts make it hard to invest in my practice and better serve my Medicare patients in ",
+        "card_text_start": "Payment cuts make it hard to invest in my practice and better serve my Medicare patients in ",
         "card_text_end": ". <strong>Repeal the SGR</strong> and help me improve the status quo."
       }
     },
     "physician_high_numbers": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "practices like mine who serve high numbers of Medicare patients in ",
+        "card_text_start": "Practices like mine who serve high numbers of Medicare patients in ",
         "card_text_end": " continue to be at risk because of the SGR. It's time to enact real reform and <strong>repeal it.</strong>"
       }
     },
     "physician_investing": {
       "variables": {
         "card_class": "physician",
-        "card_text_start": "with the threat of Medicare payment cuts, physicians in ",
+        "card_text_start": "With the threat of Medicare payment cuts, physicians in ",
         "card_text_end": " are discouraged from investing in improved care. <strong>Repealing the SGR</strong> will lead to reform and innovation."
       }
     },
@@ -71,14 +71,14 @@
     "patient_care_availability": {
       "variables": {
         "card_class": "patient",
-        "card_text_start": "the SGR makes it even harder for Medicare patients in ",
+        "card_text_start": "The SGR makes it even harder for Medicare patients in ",
         "card_text_end": " to find care. Congress has had more than enough time to address this. <strong>Repeal it</strong> and fix Medicare now."
       }
     },
     "patient_care_access": {
       "variables": {
         "card_class": "patient",
-        "card_text_start": "many in ",
+        "card_text_start": "Many in ",
         "card_text_end": " depend on Medicare. I'm urging you to <strong>repeal the SGR</strong> and ensure their access to the quality care they deserve."
       }
     },
