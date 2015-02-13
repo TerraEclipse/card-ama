@@ -220,6 +220,9 @@ h1 {
   padding: 0 30px;
   line-height: 1.25em;
 }
+h1 strong {
+  font-weight: normal;
+}
 .card-text {
   line-height: 1.2em;
 }
