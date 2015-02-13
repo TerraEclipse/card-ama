@@ -357,6 +357,11 @@ body.loop-3 .salutation.alternate {
   display: block;
 }
 
+body.loop-1 .dark-layer,
+body.loop-3 .dark-layer {
+  top: auto;
+  bottom: -20px;
+}
 body.loop-1 h1,
 body.loop-1 .greeting {
   text-align: left;
@@ -371,9 +376,7 @@ body.loop-1 .greeting {
 body.loop-1 .photo.target.small,
 body.loop-3 .photo.target.small,
 body.loop-1 .salutation.normal,
-body.loop-3 .salutation.normal,
-body.loop-1 .dark-layer,
-body.loop-3 .dark-layer {
+body.loop-3 .salutation.normal {
   display: none;
 }
 body.loop-1 .salutation,
