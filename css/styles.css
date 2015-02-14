@@ -378,6 +378,20 @@ body.loop-1 .salutation.alternate {
   z-index: 1;
 }
 
+.doctors-dark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.doctors-dark img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
 .snake {
   position: absolute;
   top: 0;
