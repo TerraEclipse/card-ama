@@ -480,9 +480,15 @@ body.loop-1 .signature {
   text-align: right;
   padding-right: 30px;
 }
+body.loop-1 .footer-content {
+  text-align: right;
+}
 
 body.loop-2 .snake {
   display: block;
+}
+body.loop-2 .footer-content {
+  text-align: right;
 }
 
 body.loop-3 h1,
@@ -522,4 +528,7 @@ body.loop-3 .dark-layer {
 }
 body.loop-3 .color.bottom {
   z-index: 2;
+}
+body.loop-3 .footer-content {
+  text-align: left;
 }
