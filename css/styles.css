@@ -327,6 +327,12 @@ FOOTER
   padding: 0 20px;
 }
 
+.ama-logo-circle {
+  width: 194px;
+  height: 108px;
+  background: url('../img/ama-logo-circle.png') no-repeat top left;
+}
+
 .ama-logo {
   display: inline-block;
   width: 71px;
