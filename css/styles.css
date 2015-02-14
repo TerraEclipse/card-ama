@@ -356,7 +356,8 @@ ALTERNATE LAYOUTS
 
 .photo.target.large,
 .salutation.alternate,
-.doctors {
+.doctors,
+.snake {
   display: none;
 }
 body.loop-1 .photo.target.large,
@@ -375,6 +376,14 @@ body.loop-1 .salutation.alternate {
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+.snake {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 body.loop-1 .dark-layer,
@@ -447,6 +456,10 @@ body.loop-3 .signature {
 body.loop-1 .signature {
   text-align: right;
   padding-right: 30px;
+}
+
+body.loop-2 .snake {
+  display: block;
 }
 
 body.loop-3 h1,
