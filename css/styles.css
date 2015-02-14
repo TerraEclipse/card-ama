@@ -357,6 +357,7 @@ ALTERNATE LAYOUTS
 .photo.target.large,
 .salutation.alternate,
 .doctors,
+.doctors-dark,
 .snake {
   display: none;
 }
@@ -408,6 +409,9 @@ body.loop-1 .dark-layer,
 body.loop-3 .dark-layer {
   top: auto;
   bottom: -70px;
+}
+body.loop-1 .doctors-dark {
+  display: block;
 }
 body.loop-1 h1,
 body.loop-1 .greeting {
