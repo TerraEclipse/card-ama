@@ -539,3 +539,7 @@ body.loop-3 .color.bottom {
 body.loop-3 .footer-content {
   text-align: left;
 }
+body.loop-3 .ama-logo-circle {
+  left: auto;
+  right: 20px;
+}
