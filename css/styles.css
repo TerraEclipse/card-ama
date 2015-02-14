@@ -497,6 +497,13 @@ body.loop-2 .snake {
 body.loop-2 .footer-content {
   text-align: right;
 }
+body.loop-2 .ama-logo-circle {
+  width: 136px;
+  height: 76px;
+  background: url('../img/ama-logo-circle.png') no-repeat top left;
+  background-size: cover;
+  left: 20px;
+}
 
 body.loop-3 h1,
 body.loop-3 .greeting {
