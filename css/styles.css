@@ -328,6 +328,9 @@ FOOTER
 }
 
 .ama-logo-circle {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
   width: 194px;
   height: 108px;
   background: url('../img/ama-logo-circle.png') no-repeat top left;
