@@ -366,7 +366,7 @@ body.loop-1 .salutation.alternate {
 .doctors {
   position: absolute;
   width: 100%;
-  top: 29px;
+  bottom: 0;
 }
 .doctors img {
   position: absolute;
