@@ -103,6 +103,7 @@ CARD BACKGROUND
 .color {
   width: 100%;
   font-size: 0;
+  opacity: 0.8;
 }
 .top {
   top: 0;
@@ -366,11 +367,13 @@ body.loop-1 .salutation.alternate {
 .doctors {
   position: absolute;
   width: 100%;
+  top: 0;
   bottom: 0;
 }
 .doctors img {
   position: absolute;
   right: 0;
+  bottom: 0;
   z-index: 1;
 }
 
@@ -477,4 +480,10 @@ body.loop-3 .signer-info {
 }
 body.loop-3 .doctors {
   display: block;
+}
+body.loop-3 .dark-layer {
+  z-index: 1;
+}
+body.loop-3 .color.bottom {
+  z-index: 2;
 }
