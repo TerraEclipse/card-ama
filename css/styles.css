@@ -527,6 +527,21 @@ body.loop-3 .signature {
   text-align: left;
   padding-left: 30px;
 }
+body.loop-3 .photo.signer,
+body.loop-3 .photo.signer .outline {
+  width: 83px;
+  height: 82px;
+}
+body.loop-3 .photo.signer {
+  margin-right: 10px;
+}
+body.loop-3 .photo.signer .outline {
+  background-size: cover;
+}
+body.loop-3 .photo.signer .image {
+  width: 73px;
+  height: 73px;
+}
 body.loop-3 .name {
   font-size: 1.9em;
 }
