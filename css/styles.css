@@ -324,6 +324,7 @@ FOOTER
   text-transform: uppercase;
   text-shadow: 0 1px 1px rgba(0,0,0,0.75);
   opacity: 0.8;
+  padding: 0 30px;
 }
 
 .ama-logo {
@@ -340,9 +341,6 @@ FOOTER
   top: -3px;
   margin: 0 10px;
   font-size: 2em;
-}
-.link {
-  top: -8px;
 }
 .footer strong {
   font-weight: 400;
