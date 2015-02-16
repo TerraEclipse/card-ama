@@ -58,18 +58,15 @@ $(function() {
   }
 
   function loadFonts() {
-    var WebFontConfig = {
+    WebFontConfig = {
+      google: {
+        families: ['Pacifico', 'Oswald']
+      },
       active: function() {
         window.postMessage('loaded');
         console.log('Fonts have rendered');
       }
     };
-
-    WebFont.load({
-      google: {
-        families: ['Pacifico', 'Oswald']
-      }
-    });
   }
 
   $(document).ready(function() {
