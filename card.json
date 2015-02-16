@@ -2,6 +2,7 @@
   "title": "AMA Fix Medicare Now Card",
   "description": "Card for AMA Fix Medicare Now campaign",
   "typekit": false,
+  "wait": true,
   "sizes": {
     "twitter": {
       "width": 800,
