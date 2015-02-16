@@ -42,11 +42,18 @@ $(function() {
     $(selector).css({ 'font-size': finalSize + 'px' }); //
   }
 
+  function setStateBackground(loopNumber, cardSelector) {
+    var $card = $(cardSelector);
+
+    $card.css({ 'background-image': 'url("https://s3-us-west-2.amazonaws.com/action.fixmedicarenow.org/states/' + variables.state + '/' + variables.state + '-' + loopNumber + '.jpg")'});
+  }
+
   function setLoopNumber(variantArray, selector) {
     var text = document.getElementsByTagName('h1')[0].innerText
       , loopNumber = variantArray.length + 1;
 
     $(selector).addClass('loop-' + loopNumber);
+    setStateBackground(loopNumber, '.card');
     setFontSize(text, '.card-text', loopNumber);
   }
 
