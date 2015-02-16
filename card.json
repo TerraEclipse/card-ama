@@ -9,6 +9,7 @@
       "default": true
     }
   },
+  "wait": true,
   "styles": [
     "./css/styles.css"
   ],

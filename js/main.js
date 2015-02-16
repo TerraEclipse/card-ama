@@ -58,6 +58,13 @@ $(function() {
   }
 
   function loadFonts() {
+    WebFontConfig({
+      active: function() {
+        window.postMessage('loaded');
+        console.log('Fonts have rendered');
+      }
+    });
+
     WebFont.load({
       google: {
         families: ['Pacifico', 'Oswald']
