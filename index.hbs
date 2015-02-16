@@ -42,7 +42,7 @@
       <div class="signature light-shadow">
         <div class="photo signer">
           <div class="outline"></div>
-          <div class="image circle-crop">{{#if avatar}}<img src="{{avatar}}">{{/if}}</div>
+          <div class="image circle-crop" {{#if avatar}}style="background: url('{{avatar}}') center center; background-size: cover;"{{/if}}></div>
         </div>
         <div class="signer-info">
           <div class="name">{{first}}{{#if last}} {{last}}{{/if}}</div>
