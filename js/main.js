@@ -63,7 +63,7 @@ $(function() {
         families: ['Pacifico', 'Oswald']
       },
       active: function() {
-        console.log('Fonts have rendered');
+        window.parent.postMessage('loaded', '*');
       }
     });
   }
