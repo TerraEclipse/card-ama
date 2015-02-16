@@ -63,7 +63,9 @@ $(function() {
         families: ['Pacifico', 'Oswald']
       },
       active: function() {
-        window.parent.postMessage('loaded', '*');
+        setTimeout(function () {
+          window.parent.postMessage('loaded', '*');
+        }, 500);
       }
     });
   }
