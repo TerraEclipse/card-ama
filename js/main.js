@@ -45,7 +45,7 @@ $(function() {
   function setStateBackground(loopNumber, cardSelector) {
     var $card = $(cardSelector);
 
-    $card.css({ 'background-image': 'url("https://s3-us-west-2.amazonaws.com/action.fixmedicarenow.org/states/' + variables.state + '/' + variables.state + '-' + loopNumber + '.jpg")'});
+    $card.css({ 'background-image': 'url("http://action.fixmedicarenow.org.s3.amazonaws.com/states/' + variables.state + '/' + variables.state + '-' + loopNumber + '.jpg")'});
   }
 
   function setLoopNumber(variantArray, selector) {
