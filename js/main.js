@@ -58,12 +58,12 @@ $(function() {
   }
 
   function loadFonts() {
-    WebFontConfig({
+    var WebFontConfig = {
       active: function() {
         window.postMessage('loaded');
         console.log('Fonts have rendered');
       }
-    });
+    };
 
     WebFont.load({
       google: {
