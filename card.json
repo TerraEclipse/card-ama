@@ -13,7 +13,6 @@
     "./css/styles.css"
   ],
   "scripts": [
-    "http://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js",
     "./js/vendor/jquery-1.11.0.min.js",
     "./js/main.js"
   ],
