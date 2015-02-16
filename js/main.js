@@ -57,19 +57,19 @@ $(function() {
     setFontSize(text, '.card-text', loopNumber);
   }
 
-  // function loadFonts() {
-  //   WebFont.load({
-  //     google: {
-  //       families: ['Pacifico', 'Oswald']
-  //     },
-  //     active: function() {
-  //       console.log('Fonts have rendered');
-  //     }
-  //   });
-  // }
+  function loadFonts() {
+    WebFont.load({
+      google: {
+        families: ['Pacifico', 'Oswald']
+      },
+      active: function() {
+        console.log('Fonts have rendered');
+      }
+    });
+  }
 
   $(document).ready(function() {
-    // loadFonts();
+    loadFonts();
     setLoopNumber(variables.variants_shared, 'body');
   });
 
