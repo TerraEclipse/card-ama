@@ -70,9 +70,6 @@ $(function() {
     });
   }
   
-  // $(document).ready(function() {
-    loadFonts();
-    setLoopNumber(variables.variants_shared, 'body');
-  // })
-
+  loadFonts();
+  setLoopNumber(variables.variants_shared, 'body');
 });
