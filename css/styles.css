@@ -113,17 +113,44 @@ CARD BACKGROUND
   bottom: 0;
   height: 52px;
 }
-.patient .top {
-  background: url('../img/color-top-patient.png');
+
+body.loop-1 .patient .top {
+  background: url('../img/color-top-patient-1.png');
 }
-.patient .bottom {
-  background: url('../img/color-bottom-patient.png');
+body.loop-1 .patient .bottom {
+  background: url('../img/color-bottom-patient-1.png');
 }
-.physician .top {
-  background: url('../img/color-top-physician.png');
+body.loop-1 .physician .top {
+  background: url('../img/color-top-physician-1.png');
 }
-.physician .bottom {
-  background: url('../img/color-bottom-physician.png');
+body.loop-1 .physician .bottom {
+  background: url('../img/color-bottom-physician-1.png');
+}
+
+body.loop-2 .patient .top {
+  background: url('../img/color-top-patient-2.png');
+}
+body.loop-2 .patient .bottom {
+  background: url('../img/color-bottom-patient-2.png');
+}
+body.loop-2 .physician .top {
+  background: url('../img/color-top-physician-2.png');
+}
+body.loop-2 .physician .bottom {
+  background: url('../img/color-bottom-physician-2.png');
+}
+
+body.loop-3 .patient .top {
+  background: url('../img/color-top-patient-3.png');
+}
+body.loop-3 .patient .bottom {
+  background: url('../img/color-bottom-patient-3.png');
+}
+body.loop-3 .physician .top {
+  background: url('../img/color-top-physician-3.png');
+}
+body.loop-3 .physician .bottom {
+  background: url('../img/color-bottom-physician-3.png');
 }
 
 .dark-layer {
