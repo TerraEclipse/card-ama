@@ -8,9 +8,9 @@ $(function() {
       , rawSize = 0
       , finalSize = 0
       , manualAdjustments = {
-          'physician_payment_cuts': 0.9,
+          'physician_payment_cuts': 0.8,
           'physician_high_numbers': 1,
-          'physician_investing': 1,
+          'physician_investing': 1.1,
           'physician_thank_you_a': 1,
           'physician_thank_you_b': 1,
           'patient_care_availability': 1,
