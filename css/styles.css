@@ -273,24 +273,24 @@ h1 strong {
   line-height: 1.2em;
 }
 
-body.loop-1 .patient strong {
+body.loop-1 .patient .main-copy strong {
   color: #ED8240;
 }
-body.loop-2 .patient strong {
+body.loop-2 .patient .main-copy strong {
   color: #f0bc48;
 }
-body.loop-3 .patient strong {
+body.loop-3 .patient .main-copy strong {
   color: #fd7352;
 }
 
-body.loop-1 .physician strong {
+body.loop-1 .physician .main-copy strong {
   color: #63BCE8;
 }
-body.loop-2 .physician strong {
-  color: #26e0fc;
+body.loop-2 .physician .main-copy strong {
+  color: #44C5D8;
 }
-body.loop-3 .physician strong {
-  color: #5297ff;
+body.loop-3 .physician .main-copy strong {
+  color: #5F9FFF;
 }
 
 /*
