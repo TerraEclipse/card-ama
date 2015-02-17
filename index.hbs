@@ -15,7 +15,7 @@
       <div class="greeting">
         <div class="photo target small">
           <div class="outline"></div>
-          <div class="image circle-crop">{{#if target.photo}}<img src="{{target.photo}}">{{/if}}</div>
+          <div class="image circle-crop"{{#if target.photo}} style="background-image: url('{{target.photo}}'); background-size: cover;"{{/if}}></div>
         </div>
         <div class="salutation normal light-shadow">{{#if target.title_short}}{{target.title_short}} {{else}} Sen/Rep{{/if}}{{#if target.last}} {{target.last}}{{/if}},</div>
       </div>
@@ -24,7 +24,7 @@
       <div class="main-copy">
         <div class="photo target large">
           <div class="outline"></div>
-          <div class="image circle-crop">{{#if target.photo}}<img src="{{target.photo}}">{{/if}}</div>
+          <div class="image circle-crop"{{#if target.photo}} style="background-image: url('{{target.photo}}'); background-size: cover;"{{/if}}></div>
         </div>
         <h1 class="centered shadow">
           <div class="salutation alternate light-shadow">{{#if target.title_short}}{{target.title_short}} {{else}} Sen/Rep{{/if}}{{#if target.last}} {{target.last}}{{/if}},</div>
