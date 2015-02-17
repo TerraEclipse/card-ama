@@ -63,6 +63,7 @@ $(function() {
         families: ['Pacifico', 'Oswald']
       },
       active: function() {
+        setLoopNumber(variables.variants_shared, 'body');
         setTimeout(function () {
           window.parent.postMessage('loaded', '*');
         }, 500);
@@ -70,7 +71,9 @@ $(function() {
     });
   }
   
-  loadFonts();
-  setLoopNumber(variables.variants_shared, 'body');
+  // $(document).ready(function() {
+  //   loadFonts();
+  //   setLoopNumber(variables.variants_shared, 'body');
+  // })
 
 });
