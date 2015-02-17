@@ -273,11 +273,24 @@ h1 strong {
   line-height: 1.2em;
 }
 
-.patient strong {
+body.loop-1 .patient strong {
   color: #ED8240;
 }
-.physician strong {
+body.loop-2 .patient strong {
+  color: #f0bc48;
+}
+body.loop-3 .patient strong {
+  color: #fd7352;
+}
+
+body.loop-1 .physician strong {
   color: #63BCE8;
+}
+body.loop-2 .physician strong {
+  color: #26e0fc;
+}
+body.loop-3 .physician strong {
+  color: #5297ff;
 }
 
 /*
@@ -337,11 +350,25 @@ SIGNATURE
   font-size: 1.15em;/*
   text-transform: uppercase;*/
 }
-.patient .location {
+
+body.loop-1 .patient .location {
   color: #ED8240;
 }
-.physician .location {
+body.loop-2 .patient .location {
+  color: #f0bc48;
+}
+body.loop-3 .patient .location {
+  color: #fd7352;
+}
+
+body.loop-1 .physician .location {
   color: #63BCE8;
+}
+body.loop-2 .physician .location {
+  color: #26e0fc;
+}
+body.loop-3 .physician .location {
+  color: #5297ff;
 }
 
 /*
