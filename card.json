@@ -61,7 +61,7 @@
       "variables": {
         "card_class": "physician",
         "card_text_start": "Thank you for fighting to fix the Medicare payment system. SGR repeal will allow me to invest in my practice and better serve the Medicare patients in ",
-        "card_text_end": " ."
+        "card_text_end": "."
       }
     },
     "physician_thank_you_b": {

@@ -23,8 +23,8 @@ $(function() {
     if (loopNumber == 1) {
       manualAdjustments = {
         'physician_payment_cuts': 0.8,
-        'physician_high_numbers': 0.8,
-        'physician_investing': 0.9,
+        'physician_high_numbers': 0.9,
+        'physician_investing': 1,
         'physician_thank_you_a': 0.8,
         'physician_thank_you_b': 0.8,
         'patient_care_availability': 0.8,
@@ -48,7 +48,7 @@ $(function() {
     rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
     if (variables.variant) {
-      finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]) * 1.2;
+      finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]) * 1.3;
     }
     else {
       finalSize = rawSize * 0.85;
