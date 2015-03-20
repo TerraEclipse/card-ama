@@ -48,10 +48,10 @@ $(function() {
     rawSize = Math.round(((-0.00103*(Math.pow(chars, 2)))+(0.01765*chars)+48.6));
 
     if (variables.variant) {
-      finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]);
+      finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]) * 1.2;
     }
     else {
-      finalSize = rawSize;
+      finalSize = rawSize * 0.85;
     }
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
