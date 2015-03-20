@@ -74,8 +74,8 @@ $(function() {
 
   function loadFonts() {
     WebFont.load({
-      google: {
-        families: ['Pacifico', 'Oswald']
+      typekit: {
+        id: 'lni3vve'
       },
       active: function() {
         setTimeout(function () {
