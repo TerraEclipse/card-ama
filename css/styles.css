@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'myriad-pro-condensed','Helvetica Neue','Helvetica',sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -340,6 +340,7 @@ SIGNATURE
 
 .name {
   font-family: 'Origo',cursive;
+  font-weight: normal;
   font-size: 2.25em;
   line-height: 1em;
 }
