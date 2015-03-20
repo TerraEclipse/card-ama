@@ -13,11 +13,11 @@ $(function() {
           'physician_investing': 0.9,
           'physician_thank_you_a': 0.8,
           'physician_thank_you_b': 0.8,
-          'patient_care_availability': 1,
-          'patient_care_access': 0.9,
+          'patient_care_availability': 0.8,
+          'patient_care_access': 0.8,
           'patient_risk': 0.8,
-          'patient_thank_you_a': 1,
-          'patient_thank_you_b': 1.2
+          'patient_thank_you_a': 0.8,
+          'patient_thank_you_b': 1
         };
 
     $.each(charArray, function(index,character) {
