@@ -10,7 +10,7 @@ $(function() {
       , manualAdjustments = {
           'physician_payment_cuts': 0.8,
           'physician_high_numbers': 0.8,
-          'physician_investing': 1.1,
+          'physician_investing': 0.9,
           'physician_thank_you_a': 1,
           'physician_thank_you_b': 1,
           'patient_care_availability': 1,
