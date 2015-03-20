@@ -422,6 +422,9 @@ FOOTER
 .bullet {
   position: relative;
 }
+.link {
+  font-weight: 600;
+}
 .bullet {
   top: -3px;
   margin: 0 10px;
