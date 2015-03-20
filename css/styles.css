@@ -263,7 +263,6 @@ MAIN COPY
 
 h1 {
   width: 100%;
-  font-weight: normal;
   padding: 0 30px;
   line-height: 1.25em;
 }
@@ -271,7 +270,7 @@ h1 strong {
   font-weight: normal;
 }
 .card-text {
-  line-height: 1.2em;
+  line-height: 1em;
 }
 
 body.loop-1 .patient .main-copy strong {
@@ -340,7 +339,7 @@ SIGNATURE
 }
 
 .name {
-  font-family: 'Pacifico',cursive;
+  font-family: 'Origo',cursive;
   font-size: 2.25em;
   line-height: 1em;
 }
