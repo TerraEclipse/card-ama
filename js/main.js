@@ -51,7 +51,7 @@ $(function() {
       finalSize = Math.floor(rawSize * manualAdjustments[variables.variant]);
     }
     else {
-      finalSize = rawSize * 0.85;
+      finalSize = rawSize;
     }
 
     $(selector).css({ 'font-size': finalSize + 'px' }); //
