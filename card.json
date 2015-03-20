@@ -11,6 +11,7 @@
     }
   },
   "styles": [
+    "./fonts/origo.css",
     "./css/styles.css"
   ],
   "scripts": [
