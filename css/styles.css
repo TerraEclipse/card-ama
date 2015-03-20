@@ -438,7 +438,8 @@ ALTERNATE LAYOUTS
 .salutation.alternate,
 .doctors,
 .doctors-dark,
-.snake {
+.snake,
+.rep-callout {
   display: none;
 }
 body.loop-1 .photo.target.large,
@@ -485,6 +486,16 @@ body.loop-1 .salutation.alternate {
   padding-top: 34px;
 }
 
+body.loop-1 .rep-callout {
+  display: block;
+  font-size: 30px;
+  margin-top: 0.65em;
+  color: #53D532;
+  font-weight: 700;
+}
+body.loop-1 .yes {
+  text-decoration: underline;
+}
 body.loop-1 .dark-layer,
 body.loop-3 .dark-layer {
   top: auto;
