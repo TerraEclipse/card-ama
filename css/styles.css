@@ -492,7 +492,7 @@ body.loop-1 .salutation.alternate {
   padding-top: 34px;
 }
 .rep-callout {
-  display: block;
+  /*display: block;*/
   /*font-size: 30px;
   margin-top: 0.65em;*/
   color: #53D532;
