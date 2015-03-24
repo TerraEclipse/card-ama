@@ -20,7 +20,7 @@ $(function() {
           'patient_thank_you_b': 1.2
         };
 
-    if (loopNumber == 1) {
+    // if (loopNumber == 1) {
       manualAdjustments = {
         'physician_payment_cuts': 0.8,
         'physician_high_numbers': 0.9,
@@ -33,7 +33,7 @@ $(function() {
         'patient_thank_you_a': 0.8,
         'patient_thank_you_b': 1
       }
-    }
+    // }
 
     $.each(charArray, function(index,character) {
       if (character == ' ') {
