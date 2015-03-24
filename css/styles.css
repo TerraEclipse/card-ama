@@ -493,12 +493,12 @@ body.loop-1 .salutation.alternate {
 }
 .rep-callout {
   display: block;
-  font-size: 30px;
-  margin-top: 0.65em;
+  /*font-size: 30px;
+  margin-top: 0.65em;*/
   color: #53D532;
   font-weight: 700;
 }
-body.loop-1 .yes {
+.yes {
   text-decoration: underline;
 }
 body.loop-1 .dark-layer,
