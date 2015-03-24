@@ -445,8 +445,7 @@ ALTERNATE LAYOUTS
 .salutation.alternate,
 .doctors,
 .doctors-dark,
-.snake,
-.rep-callout {
+.snake {
   display: none;
 }
 body.loop-1 .photo.target.large,
@@ -492,8 +491,7 @@ body.loop-1 .salutation.alternate {
   text-align: center;
   padding-top: 34px;
 }
-
-body.loop-1 .rep-callout {
+.rep-callout {
   display: block;
   font-size: 30px;
   margin-top: 0.65em;
